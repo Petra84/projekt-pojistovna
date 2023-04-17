@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html lang="cs-cz">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Pojištovna štěstí</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body onload="onLoaded()">
+  <script src="Pojistenci.js"></script>
+  <div style="display: flex; flex-direction: row;"></div>
+  <header>
+    <nav>
+      <b>Pojišťovna štěstí</b>
+      <a href="http://www.itnetwork.cz" style="text-decoration:none;">Nabídka pojištění</a>
+      <a href="http://www.itnetwork.cz" style="text-decoration:none;">O nás</a>
+      <a href="http://www.itnetwork.cz" style="text-decoration:none;">Kontakt</a>
+    </nav>
+  </header>
+
+  <h2>Nový pojištěnec</h2>
+
+  <div>
+    <img src="th.jpg"><br></br>
+    <form onsubmit="return saveData();">
+      <label for="idNumber">Identifikačni číslo:</label>
+      <input type="number" id="idNumber" name="idNumber">
+      <label for="name">Jméno:</label>
+      <input type="text" id="name" name="name">
+      <label for="surname">Příjmení:</label>
+      <input type="text" id="surname" name="surname">
+      <label for="age">Věk:</label>
+      <input type="number" id="age" name="age">
+      <label for="phone">Telefon:</label>
+      <input type="tel" id="phone" name="phone">
+      <button>Uložit</button>
+    </form>
+  </div><br><br>
+
+  <h2>Smazat pojištěnce</h2>
+
+  <div>
+    <img src="th.jpg"><br></br>
+    <form onsubmit="return deletePerson();">
+      <label for="idNumberDelete">Identifikačni číslo:</label>
+      <input type="number" id="idNumberDelete" name="idNumberDelete">
+      <button>Smazat</button>
+    </form>
+  </div><br>
+
+  <h2>Seznam pojištěnců</h2>
+
+<table></table>
+</body>
+</html>

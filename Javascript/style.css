@@ -1,0 +1,75 @@
+ button {
+  background: #58e6e6;
+  text-decoration: none;
+  color: #352125;
+  font-family: Verdana;
+  text-shadow: 0px 0px 10px rgb(9, 21, 68);
+  border-radius: 5px;
+  border: 1px solid #150f10;
+  margin: 5px;
+  padding: 8px 10px;
+  cursor: pointer;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+  float: left;
+  margin-left: 40px;
+}
+
+nav {
+  font-size: x-large;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 15px;
+  background-color: rgba(113, 228, 228, 0.836);
+  color: #150f10;
+  text-shadow: 0px 0px 10px rgb(9, 21, 68);
+}
+
+a {
+  color: #352125;
+}
+
+form {
+  min-height: 5vh;
+  margin-left: 150px;
+  
+}
+
+h2 {
+  text-align: center;
+}
+
+table {
+  border-collapse:collapse;
+  align-content: center
+}
+
+th, td {
+  border: 1px solid black;
+  width: 15%;
+}
+
+.myTable {
+  margin: auto;
+  margin: auto;
+  text-align: center;
+}
+
+body {
+  background-color: rgb(220, 236, 240);
+}
+
+input{
+  background: rgb(227, 219, 219);
+  margin: 5px;
+  width: 110px;
+}
+
+div{
+  align-content: center;
+}
+
+
